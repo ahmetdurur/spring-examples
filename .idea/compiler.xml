@@ -10,6 +10,7 @@
         <module name="spring-elasticsearch" />
         <module name="spring-boot-dockerization" />
         <module name="spring-boot-rabbitmq" />
+        <module name="spring-boot-aop" />
         <module name="spring-mongo-rest-api" />
         <module name="spring-datajpa-postgresql" />
         <module name="spring-hello-world" />
@@ -17,6 +18,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot-aop" target="1.8" />
       <module name="spring-boot-api-doc" target="11" />
       <module name="spring-boot-dockerization" target="1.8" />
       <module name="spring-boot-rabbitmq" target="11" />
@@ -29,6 +31,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-aop" options="-parameters" />
       <module name="spring-boot-api-doc" options="-parameters" />
       <module name="spring-boot-dockerization" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
