@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot-api-doc/spring-boot-api-doc.iml" filepath="$PROJECT_DIR$/spring-boot-api-doc/spring-boot-api-doc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dockerization/spring-boot-dockerization.iml" filepath="$PROJECT_DIR$/spring-boot-dockerization/spring-boot-dockerization.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbitmq/spring-boot-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-boot-rabbitmq/spring-boot-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-datajpa-postgresql/spring-datajpa-postgresql.iml" filepath="$PROJECT_DIR$/spring-datajpa-postgresql/spring-datajpa-postgresql.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-elasticsearch/spring-elasticsearch.iml" filepath="$PROJECT_DIR$/spring-elasticsearch/spring-elasticsearch.iml" />
