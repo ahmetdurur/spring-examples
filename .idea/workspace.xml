@@ -4,14 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f79997af-e87d-46b9-b1cd-5d6f547fa60a" name="Changes" comment="spring dockerization">
-      <change afterPath="$PROJECT_DIR$/spring-boot-aop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-aop/spring-boot-aop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/haydikodlayalim/SpringAopApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/haydikodlayalim/api/MessageApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/haydikodlayalim/aspects/ServiceAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/haydikodlayalim/service/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/haydikodlayalim/service/SecondMessageService.java" afterDir="false" />
+    <list default="true" id="f79997af-e87d-46b9-b1cd-5d6f547fa60a" name="Changes" comment="Spring graphql queryResolver ve mutationResolver ornegi">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_11_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_kotlin_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_26_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_graphql_java_graphiql_spring_boot_autoconfigure_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_graphql_java_graphiql_spring_boot_starter_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_graphql_java_graphql_java_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_graphql_java_graphql_java_servlet_6_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_graphql_java_graphql_java_tools_5_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_graphql_java_graphql_spring_boot_autoconfigure_5_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_graphql_java_graphql_spring_boot_starter_5_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_graphql_java_java_dataloader_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_reflect_1_6_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_6_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_6_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_react_0_14_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/spring-boot-graphql.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/haydikodlayalim/graphql/GraphQLApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/haydikodlayalim/graphql/api/VehicleMutationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/haydikodlayalim/graphql/api/VehicleQueryResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/haydikodlayalim/graphql/dto/VehicleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/haydikodlayalim/graphql/entity/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/haydikodlayalim/graphql/repo/VehicleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/resources/vehicle.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/target/classes/com/haydikodlayalim/graphql/GraphQLApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/target/classes/com/haydikodlayalim/graphql/api/VehicleMutationResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/target/classes/com/haydikodlayalim/graphql/api/VehicleQueryResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/target/classes/com/haydikodlayalim/graphql/dto/VehicleDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/target/classes/com/haydikodlayalim/graphql/entity/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/target/classes/com/haydikodlayalim/graphql/repo/VehicleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/target/classes/vehicle.graphqls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -28,6 +71,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="GraphQL File" />
       </list>
     </option>
   </component>
@@ -82,10 +126,10 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpringAopApplication">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.haydikodlayalim.Application" />
-      <module name="spring-elasticsearch" />
+  <component name="RunManager" selected="Application.GraphQLApplication">
+    <configuration name="DockerizationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.haydikodlayalim.DockerizationApplication" />
+      <module name="spring-boot-dockerization" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.haydikodlayalim.aspects.*" />
@@ -96,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DockerizationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.haydikodlayalim.DockerizationApplication" />
-      <module name="spring-boot-dockerization" />
+    <configuration name="GraphQLApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.haydikodlayalim.graphql.GraphQLApplication" />
+      <module name="spring-boot-graphql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.haydikodlayalim.aspects.*" />
+          <option name="PATTERN" value="com.haydikodlayalim.graphql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphQLApplication" />
         <item itemvalue="Application.SpringAopApplication" />
         <item itemvalue="Application.DockerizationApplication" />
         <item itemvalue="Application.RabbitApplication" />
         <item itemvalue="Application.SpringBootDocApplication" />
-        <item itemvalue="Application.Application (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646294873785</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Spring Aspect Oriented Programming Ornegi">
+      <created>1646312790285</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1646312790285</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +313,8 @@
     <MESSAGE value="spring openApi swagger dokumantasyon örneği" />
     <MESSAGE value="rabbitMq" />
     <MESSAGE value="spring dockerization" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring dockerization" />
+    <MESSAGE value="Spring Aspect Oriented Programming Ornegi" />
+    <MESSAGE value="Spring graphql queryResolver ve mutationResolver ornegi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring graphql queryResolver ve mutationResolver ornegi" />
   </component>
 </project>

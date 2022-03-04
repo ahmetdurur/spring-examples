@@ -15,12 +15,14 @@
         <module name="spring-datajpa-postgresql" />
         <module name="spring-hello-world" />
         <module name="spring-boot-api-doc" />
+        <module name="spring-boot-graphql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-aop" target="1.8" />
       <module name="spring-boot-api-doc" target="11" />
       <module name="spring-boot-dockerization" target="1.8" />
+      <module name="spring-boot-graphql" target="11" />
       <module name="spring-boot-rabbitmq" target="11" />
       <module name="spring-datajpa-postgresql" target="11" />
       <module name="spring-elasticsearch" target="11" />
@@ -34,6 +36,7 @@
       <module name="spring-boot-aop" options="-parameters" />
       <module name="spring-boot-api-doc" options="-parameters" />
       <module name="spring-boot-dockerization" options="-parameters" />
+      <module name="spring-boot-graphql" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
