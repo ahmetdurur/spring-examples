@@ -28,7 +28,7 @@ public class KisiServiceImpl  implements KisiService {
     @Override
     @Transactional
     public KisiDto save(KisiDto kisiDto) {
-        Assert.isNull(kisiDto.getAdi(), "Adı Alanı Boş Olamaz");
+       // Assert.isNull(kisiDto.getAdi(), "Adı Alanı Boş Olamaz");
 
         Kisi kisi = new Kisi();
         kisi.setAdi(kisiDto.getAdi());
@@ -44,6 +44,8 @@ public class KisiServiceImpl  implements KisiService {
             adres.setKisi(kisiDb);
             adresList.add(adres);
         } ) ;
+
+        adresRepository.saveAll(adresList);
         return null;
     }
 
