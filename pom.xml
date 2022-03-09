@@ -23,6 +23,7 @@
         <module>spring-boot-eventdriven</module>
         <module>spring-boot-gridfs-fileupload</module>
         <module>spring-boot-gridfs-fileupload</module>
+        <module>spring-boot-kafka</module>
     </modules>
 
     <properties>
