@@ -48,7 +48,8 @@ public class ProductApi {
      X-API-VERSION herhangi bir öntanımlı parametre ismi değil
     Custom HttpHeaders tanımı yaparken kullanılan isimlendirme şekli
     bir nevi best practice X-API-VERSION yerine ahmet-version diye
-    isimlendirmekte mümkün  */
+    isimlendirmekte mümkün postman'den get isteği atılırken headers
+     sekmesinden KEY=X-API-VERSION, VALUE=1 (veya 2) verilmesi lazım */
 
 
     // http://localhost:8080/api/header/product
